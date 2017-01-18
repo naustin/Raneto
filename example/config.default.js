@@ -9,6 +9,9 @@ var config = {
   // The base URL of your site (can use %base_url% in Markdown files)
   base_url: '',
 
+  // pick up port from Azure web app configuration
+  port: process.env.port,
+  
   // Used for the "Get in touch" page footer link
   support_email: '',
 
